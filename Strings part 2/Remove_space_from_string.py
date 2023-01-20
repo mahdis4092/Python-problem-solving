@@ -9,6 +9,8 @@ print(K)
 
 #course solution
 
+p="Have a nice day  , ok"
+print(p.replace(" ",""))#replce space by nothing
 
 
 
