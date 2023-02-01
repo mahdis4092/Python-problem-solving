@@ -19,6 +19,7 @@ else:
 #Given Solution
 myList=['a','b',2,'a']
 elem_to_remove=2
+print(range(myList.count(elem_to_remove)))
 if len(myList)==0:
     print('Empty List')
 elif myList.count(elem_to_remove)==0:
