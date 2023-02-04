@@ -29,3 +29,6 @@ else:
         myList.remove(elem_to_remove)
     print(myList)
 
+#remove method only remove 1 element at a time
+#if remove element has 2 time we call remove 2 times
+#thats why we use for i in range(myList.count(elem_to_remove)):
